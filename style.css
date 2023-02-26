@@ -1,0 +1,92 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+body{
+    background-color: darkgray;
+     text-align: center;
+}
+table{
+    margin-top: 150px;
+    margin-left: 150px;
+    border-spacing: 0;
+    float: center;
+}
+td.mon,.tue,.wed,.thu,.fri,.sat,.sun{
+    width: 200px;
+    border: 1px solid black;
+    height: 40px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 20px solid rgb(105, 214, 31);
+    background-color:white;
+  
+}
+
+.row{
+    background-color: darkgray;
+    text-align: center;
+    border: 20px solid black;
+    border-collapse: collapse;
+    border-color: rgb(108, 180, 15);
+}
+
+th{
+    height: 30px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border: 20px solid rgb(11, 180, 231);
+    background-color: white;
+    border-color: rgb(105, 214, 31);
+    font: bold;
+}
+.h{
+    margin-left: 30%;
+    justify-content: center;
+      width: 50%;
+    position: absolute;
+    top: 0%;
+    font: bold;
+    font-size: 50px;
+    border-color: aqua;
+    background-color: rgb(13, 153, 83);
+      
+}
+td{
+    height: 30px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border: 20px solid rgb(11, 180, 231);
+    background-color: white;
+    border-color: rgb(13, 179, 7);
+    font-weight: bold; 
+}
+.td1{ 
+    writing-mode: vertical-lr ;
+transform: rotate(180deg);    
+}
+
+@media (max-width:768px) {
+    .h{position: absolute;
+    top: -15%;}
+    
+}
+@media (max-width:1024px) {
+    .h{position: absolute;
+    top: -1%;
+    background-color:rgb(13, 153, 83) ;
+    width: 130%;}
+    
+}
+@media (max-width:425px) {
+    .h{position: absolute;
+    top:-1%;
+background-color:rgb(13, 153, 83) ;
+width: 300%;
+}
+
+    
+}
+
+
